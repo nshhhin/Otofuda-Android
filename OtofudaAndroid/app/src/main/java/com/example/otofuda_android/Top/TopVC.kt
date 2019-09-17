@@ -1,5 +1,6 @@
 package com.example.otofuda_android.Top
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu
@@ -8,7 +9,6 @@ import com.example.otofuda_android.R
 
 import kotlinx.android.synthetic.main.activity_main.*
 import android.view.View
-import android.util.Log
 import android.widget.Button;
 
 
@@ -20,7 +20,10 @@ class TopVC : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         val button = this.findViewById(R.id.button) as Button
-        button.setOnClickListener(View.OnClickListener { Log.d("debug", "ここまできたよ！") })
+        button.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, CreateGroupVC::class.java)
+            startActivity(intent)
+        })
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

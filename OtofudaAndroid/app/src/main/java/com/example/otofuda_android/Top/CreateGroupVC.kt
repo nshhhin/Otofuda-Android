@@ -6,12 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu
 import android.view.MenuItem
 import com.example.otofuda_android.R
+import kotlinx.android.synthetic.main.create_group.*
 
 class CreateGroupVC : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.create_group)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
