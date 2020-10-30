@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "956082112076",
+    "firebase_url": "https://otofuda-a41cc.firebaseio.com",
+    "project_id": "otofuda-a41cc",
+    "storage_bucket": "otofuda-a41cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956082112076:android:6d15a8bf5fca70758b56e9",
+        "android_client_info": {
+          "package_name": "com.example.otofuda_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956082112076-fjj471eal6bc28fvmtnu41lu57na521b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWFhnRMFibuEvk43vEl9YsDCHbO1TSKrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956082112076-fjj471eal6bc28fvmtnu41lu57na521b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "956082112076-9o5k00qcjlp32ekgutke2ska8bio3u93.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "nkmr-lab.Otofuda-iOS"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
